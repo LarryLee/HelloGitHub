@@ -19,6 +19,7 @@
 		FA0C24F115BFAD2F00073EDD /* README in Resources */ = {isa = PBXBuildFile; fileRef = FA0C24F015BFAD2F00073EDD /* README */; };
 		FA0C24F915BFD21100073EDD /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C24F715BFD21100073EDD /* SignInViewController.m */; };
 		FA0C24FA15BFD21100073EDD /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0C24F815BFD21100073EDD /* SignInViewController.xib */; };
+		FA0C24FD15BFD6B900073EDD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA0C24FC15BFD6B900073EDD /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FA0C24F615BFD21100073EDD /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		FA0C24F715BFD21100073EDD /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		FA0C24F815BFD21100073EDD /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		FA0C24FC15BFD6B900073EDD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				FA0C24F715BFD21100073EDD /* SignInViewController.m */,
 				FA0C24F815BFD21100073EDD /* SignInViewController.xib */,
 				9918B66A15BEE0FF00FA033D /* Supporting Files */,
+				FA0C24FC15BFD6B900073EDD /* Settings.bundle */,
 			);
 			path = HelloGitHub;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				9918B67A15BEE0FF00FA033D /* MainStoryboard_iPad.storyboard in Resources */,
 				FA0C24F115BFAD2F00073EDD /* README in Resources */,
 				FA0C24FA15BFD21100073EDD /* SignInViewController.xib in Resources */,
+				FA0C24FD15BFD6B900073EDD /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
