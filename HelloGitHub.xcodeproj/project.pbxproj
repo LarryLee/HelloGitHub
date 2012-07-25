@@ -16,6 +16,7 @@
 		9918B67715BEE0FF00FA033D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9918B67515BEE0FF00FA033D /* MainStoryboard_iPhone.storyboard */; };
 		9918B67A15BEE0FF00FA033D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9918B67815BEE0FF00FA033D /* MainStoryboard_iPad.storyboard */; };
 		9918B67D15BEE0FF00FA033D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918B67C15BEE0FF00FA033D /* ViewController.m */; };
+		FA0C24F115BFAD2F00073EDD /* README in Resources */ = {isa = PBXBuildFile; fileRef = FA0C24F015BFAD2F00073EDD /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9918B67915BEE0FF00FA033D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9918B67B15BEE0FF00FA033D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9918B67C15BEE0FF00FA033D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA0C24F015BFAD2F00073EDD /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		9918B66A15BEE0FF00FA033D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA0C24F015BFAD2F00073EDD /* README */,
 				9918B66B15BEE0FF00FA033D /* HelloGitHub-Info.plist */,
 				9918B66C15BEE0FF00FA033D /* InfoPlist.strings */,
 				9918B66F15BEE0FF00FA033D /* main.m */,
@@ -155,6 +158,7 @@
 				9918B66E15BEE0FF00FA033D /* InfoPlist.strings in Resources */,
 				9918B67715BEE0FF00FA033D /* MainStoryboard_iPhone.storyboard in Resources */,
 				9918B67A15BEE0FF00FA033D /* MainStoryboard_iPad.storyboard in Resources */,
+				FA0C24F115BFAD2F00073EDD /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +258,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloGitHub/HelloGitHub-Prefix.pch";
 				INFOPLIST_FILE = "HelloGitHub/HelloGitHub-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +270,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloGitHub/HelloGitHub-Prefix.pch";
 				INFOPLIST_FILE = "HelloGitHub/HelloGitHub-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +295,7 @@
 				9918B68215BEE0FF00FA033D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
